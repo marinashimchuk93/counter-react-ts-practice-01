@@ -39,8 +39,6 @@ export const Counter = (props: CounterProps) => {
       <CounterDisplay
         count={count}
         maxValue={maxValue}
-        isSettingsChanged={isSettingsChanged}
-        isError={isError}
       />
       <div className={s.buttonWrapper}>
         <Button
