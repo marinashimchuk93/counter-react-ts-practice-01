@@ -1,0 +1,48 @@
+:root {
+  --bg-dark: #1d222d;
+  --neon-blue: #61dafb;
+  --error-red: #ff4a4a;
+  --border-radius-main: 10px;
+  --border-radius-sub: 5px;
+}
+
+body {
+  background-color: var(--bg-dark);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 420px;
+  height: 240px;
+  padding: 15px;
+  border: 2px solid var(--neon-blue);
+  border-radius: var(--border-radius-main);
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+
+.topWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border: 2px solid var(--neon-blue);
+  border-radius: var(--border-radius-sub);
+  height: 120px;
+  box-sizing: border-box;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 60px;
+  border: 2px solid var(--neon-blue);
+  border-radius: var(--border-radius-sub);
+}
+
+
+
